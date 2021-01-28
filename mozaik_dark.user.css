@@ -5,7 +5,7 @@
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
-@-moz-document url("https://mozaikportail.ca/") {
+@-moz-document url("https://mozaikportail.ca/"), url("https://portailparents.ca/") {
     /* Insérer le code ici... */
     [data-espace-travail="selection"] section {
         background-color: #1b1b1b;
