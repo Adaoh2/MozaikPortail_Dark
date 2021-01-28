@@ -1,17 +1,32 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.1
+@version        1.0.2
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
-
 @-moz-document url("https://mozaikportail.ca/") {
     /* Insérer le code ici... */
     [data-espace-travail="selection"] section {
         background-color: #1b1b1b;
         padding: 10px;
+        border-radius: 5px;
     }
+    [data-espace-travail="selection"] .ressources .ressource a {
+        text-decoration: none;
+        color: #cacaca;
+    }
+    [data-espace-travail="selection"] .espacesTravail .espaceTravail a,
+    [data-espace-travail="selection"] .ressources .ressource a {
+        box-shadow: 2px 2px 4px #151515;
+        display: block;
+        height: 100%;
+        width: 100%;
+        -webkit-transition: box-shadow .2s ease;
+        transition: box-shadow .2s ease;
+        border-radius: 5px;
+    }
+    
     html,
     body {
         color: #fff;
@@ -193,5 +208,12 @@
         background-color: #293138;
         color: #cccccc;
         padding: 10px;
+    }
+    [data-modele="modeleUtilisateurProfil"] .profil {
+        background-color: #1b1b1b;
+        border-radius: 5px;
+    }
+    [data-control="outilTiroir"][data-option="fermerBasExterieur"] .conteneurBtnFermerBas {
+        background-color: #f0f0f000;
     }
 }
