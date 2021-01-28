@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name         Mozaik_Dark
+@namespace    https://github.com/Adaoh2/MozaikPortail_Dark
+@version      1.0.0
+@license      unlicense
+==/UserStyle== */
+
 @-moz-document url("https://mozaikportail.ca/") {
     @import url(reset.css?v=1);
     [data-espace-travail="selection"] section {
