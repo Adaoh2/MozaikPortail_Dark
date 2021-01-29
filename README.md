@@ -2,6 +2,8 @@
 # MozaikPortail_Dark
 Un thème sombre pour le Mozaik Portail // A dark mode for Mozaik Portail
 
+![preview_screenshot](./images/firefox_qfy0pkwAXM.png)
+
 * [Installation (Français)](#-🇫🇷-Installation)
 * [Installation (English)](#-🇬🇧-Installation)
 
@@ -11,6 +13,7 @@ Pour installer ce thème, il vous faut l'extension Stylus, que vous pouvez insta
 1. [Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. [Firefox add-ons](https://addons.mozilla.org/firefox/addon/styl-us/)
 3. [Opera add-ons](https://addons.opera.com/extensions/details/stylus/)
+4. [Pour Safari: Cascadea](https://cascadea.app/)
 
 Une fois Stylus installé, cliquez sur le bouton "Install directly with Stylus" ou allez simplement sur mon lien [Stylebase](https://stylebase.cc/style/02F5jzBY3pm).
 
@@ -24,6 +27,7 @@ you can get it for firefox, chrome, opera with the links below:
 1. [Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. [Firefox add-ons](https://addons.mozilla.org/firefox/addon/styl-us/)
 3. [Opera add-ons](https://addons.opera.com/extensions/details/stylus/)
+4. [For Safari: Cascadea](https://cascadea.app/)
 
 After Stylus is installed, click the install badge called "Install directly with Stylus", or go to the [Stylebase](https://stylebase.cc/style/02F5jzBY3pm) link.
 
