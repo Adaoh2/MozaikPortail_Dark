@@ -2,10 +2,14 @@
 # MozaikPortail_Dark
 Un thème sombre pour le Mozaik Portail // A dark mode for Mozaik Portail
 
-![preview_screenshot](./images/firefox_qfy0pkwAXM.png)
-
+# Index
+* [Images](#Images)
 * [Installation (Français)](#-🇫🇷-Installation)
 * [Installation (English)](#-🇬🇧-Installation)
+
+
+# Images
+![preview_screenshot](./images/firefox_qfy0pkwAXM.png)
 
 # 🇫🇷 Installation
 Pour installer ce thème, il vous faut l'extension Stylus (ou Cascadea sur Safari), que vous pouvez installer depuis les liens suivants:
