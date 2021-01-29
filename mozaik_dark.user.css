@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.2
+@version        1.0.3
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
@@ -215,5 +215,8 @@
     }
     [data-control="outilTiroir"][data-option="fermerBasExterieur"] .conteneurBtnFermerBas {
         background-color: #f0f0f000;
+    }
+    [data-modele="modeleProfilScolaire"] .profilScolaire {
+    background-color: #1b1b1b;
     }
 }
