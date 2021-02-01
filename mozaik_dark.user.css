@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.3
+@version        1.0.4
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
@@ -218,5 +218,8 @@
     }
     [data-modele="modeleProfilScolaire"] .profilScolaire {
     background-color: #1b1b1b;
+    }
+    .grilleHoraire__entete--journee {
+     border-bottom: #232323 5px solid;
     }
 }
