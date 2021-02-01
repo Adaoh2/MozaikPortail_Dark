@@ -1,12 +1,11 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.4
+@version        1.0.5
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
 @-moz-document url("https://mozaikportail.ca/"), url("https://portailparents.ca/") {
-    /* Insérer le code ici... */
     [data-espace-travail="selection"] section {
         background-color: #1b1b1b;
         padding: 10px;
@@ -221,5 +220,15 @@
     }
     .grilleHoraire__entete--journee {
      border-bottom: #232323 5px solid;
+    }
+        /*----------------------- page connexion -------------------------*/
+    [data-module="mozaikBanniere"].inverse .contenantBaniere,
+    .scolaire [data-module="mozaikBanniere"].inverse .contenantBaniere,
+    .pedago [data-module="mozaikBanniere"].inverse .contenantBaniere,
+    .admin [data-module="mozaikBanniere"].inverse .contenantBaniere {
+        background-color: #141414;
+    } 
+    body.accueil {
+        background-color: #141414;
     }
 }
