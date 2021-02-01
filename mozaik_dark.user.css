@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.5
+@version        1.0.6
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
@@ -29,20 +29,16 @@
     html,
     body {
         color: #fff;
-        font-family: "Open Sans", Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        height: 100%;
+
     }
     body:not([data-version]) > div {
         background-color: #141414;
-        min-height: 100%;
+
     }
     body[data-version]:not(.accueil) {
         background-color: #141414;
     }
-    body[data-version]:not(.accueil) > div > header + div {
-        height: calc(100vh - 150px);
-    }
+
     body[data-version]:not(.accueil) > div > header + div > .contenu {
         background-color: #141414;
     }
@@ -64,11 +60,6 @@
     /*#endregion*/
     .listeTuiles {
         background-color: #1b1b1b;
-        margin-bottom: 0;
-        position: relative;
-        text-align: right;
-        z-index: 75;
-        width: 315px;
     }
 
     /*#region theme */
@@ -220,6 +211,22 @@
     }
     .grilleHoraire__entete--journee {
      border-bottom: #232323 5px solid;
+    }
+
+    /*------------------------ menu déconnexion ----------------------- */
+    
+    [data-modele="modeleUtilisateurConnexion"] .menu > ul {
+    background-color: #232323;
+    border: 1px solid #373737;
+    border-radius: 5px;  
+    box-shadow: 2px 2px 5px #141414; 
+    } 
+    [data-modele="modeleUtilisateurConnexion"] .menu > ul > li button {
+    box-sizing: border-box;
+    color: #fff;
+    }
+    [data-modele="modeleUtilisateurConnexion"] .menu > ul > li button:hover {
+    background-color: #141414;
     }
         /*----------------------- page connexion -------------------------*/
     [data-module="mozaikBanniere"].inverse .contenantBaniere,
