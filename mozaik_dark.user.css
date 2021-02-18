@@ -1,11 +1,12 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.0.6
+@version        1.0.7
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
-@-moz-document url("https://mozaikportail.ca/"), url("https://portailparents.ca/") {
+@-moz-document url("https://mozaikportail.ca/"),
+url("https://portailparents.ca/") {
     [data-espace-travail="selection"] section {
         background-color: #1b1b1b;
         padding: 10px;
@@ -25,20 +26,18 @@
         transition: box-shadow .2s ease;
         border-radius: 5px;
     }
-    
+
     html,
     body {
         color: #fff;
-
     }
     body:not([data-version]) > div {
         background-color: #141414;
-
     }
+
     body[data-version]:not(.accueil) {
         background-color: #141414;
     }
-
     body[data-version]:not(.accueil) > div > header + div > .contenu {
         background-color: #141414;
     }
@@ -207,35 +206,39 @@
         background-color: #f0f0f000;
     }
     [data-modele="modeleProfilScolaire"] .profilScolaire {
-    background-color: #1b1b1b;
+        background-color: #1b1b1b;
     }
     .grilleHoraire__entete--journee {
-     border-bottom: #232323 5px solid;
+        border-bottom: #232323 5px solid;
     }
 
     /*------------------------ menu déconnexion ----------------------- */
-    
     [data-modele="modeleUtilisateurConnexion"] .menu > ul {
-    background-color: #232323;
-    border: 1px solid #373737;
-    border-radius: 5px;  
-    box-shadow: 2px 2px 5px #141414; 
-    } 
+        background-color: #232323;
+        border: 1px solid #373737;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #141414;
+    }
     [data-modele="modeleUtilisateurConnexion"] .menu > ul > li button {
-    box-sizing: border-box;
-    color: #fff;
+        box-sizing: border-box;
+        color: #fff;
     }
     [data-modele="modeleUtilisateurConnexion"] .menu > ul > li button:hover {
-    background-color: #141414;
+        background-color: #141414;
     }
-        /*----------------------- page connexion -------------------------*/
+    /*----------------------- page connexion -------------------------*/
     [data-module="mozaikBanniere"].inverse .contenantBaniere,
     .scolaire [data-module="mozaikBanniere"].inverse .contenantBaniere,
     .pedago [data-module="mozaikBanniere"].inverse .contenantBaniere,
     .admin [data-module="mozaikBanniere"].inverse .contenantBaniere {
         background-color: #141414;
-    } 
+    }
     body.accueil {
+        background-color: #141414;
+    }
+
+    /*----------- chargement -----------*/
+    #contenu > .smpTraitementEnCours {
         background-color: #141414;
     }
 }
