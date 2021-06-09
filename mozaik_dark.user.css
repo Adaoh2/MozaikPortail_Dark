@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mozaik_Dark
 @namespace      https://github.com/Adaoh2/MozaikPortail_Dark
-@version        1.1.0
+@version        1.1.1
 @description    A dark theme for Mozaik Portail
 @author         Adaoh
 ==/UserStyle== */
@@ -109,6 +109,9 @@ url("https://portailparents.ca/") {
 	.grilleHoraire__plages--journee .grilleHoraire--aujourdhui {
 		background-color: var(--fg-box-color);
 	}
+	.grilleHoraire__plages--journee td:nth-child(2n+3):not(.grilleHoraire--aujourdhui) {
+    background-color: var(--fg-box-color);
+}
 	/*#endregion*/
 	.publicationEleve {
 		background-color: var(--fg-color);
